@@ -6,9 +6,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SAMTextView.h"
 
 // Subclass of `UITextView` that fixes the most glaring bugs in iOS 7.
-@interface PSPDFTextView : UITextView
+@interface PSPDFTextView : SAMTextView
 
 // Scrolls to caret position, considering insets.
 - (void)scrollToVisibleCaretAnimated:(BOOL)animated;

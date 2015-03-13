@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.source_files  = 'PSPDFTextView/*.{h,m,c}'
   s.requires_arc = true;
   s.social_media_url = "https://twitter.com/steipete"
+  s.dependency 'SAMTextView', '~> 0.2'
 end
